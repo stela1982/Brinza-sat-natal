@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.6/pdfobject.min.js"></script>
+    <script src="../js/main.js"></script>
+    <title>Brînza</title>
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            Brînza-sat natal
+            <i class="fas fa-spa logo"></i>
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()" ></i>
+    </header>
+    <div class="page-container">
+
+        <aside id="side-menu">
+            <a href="../index.html">Home</a>
+            <a href="personalitati.html">Simboluri și personalitati</a>
+            <a href="evenimente.html">Evenimente</a>
+            <a href="atractii.html">Atracții turistice</a>
+            <a href="indeletniciri.html">Îndeletniciri</a>
+            <a href="contacte.html">Contacte</a>
+        </aside>
+
+        <main>
+            <h2 class="center">Atractii turistice</h2>
+            <div class="img-atractii">
+                    <img class="img-despre" src="../images/telescop.jpg" alt="telescop">
+                    <img class="img-despre" src="../images/natalia port pop.jpg" alt="muzeu">
+            </div>
+            <div class="galerie">
+                <a target="_blank" href="../images/muzeu din sat.jpg">
+                    <img src="../images/muzeu din sat.jpg">
+                   <p>Muzeul din liceu </p>
+                </a>
+                <a target="_blank" href="../images/planetariu.jpg">
+                    <img src="../images/planetariu.jpg">
+                    <p>Planetariu</p>
+                </a>
+                <a target="_blank" href="../images/lunca1.jpg">
+                    <img src="../images/lunca1.jpg">
+                    <p>Lunca prutului</p>
+                </a>
+                <a target="_blank" href="../images/stejari.jpg">
+                    <img src="../images/stejari.jpg">
+                    <p>Pădurea de stejari</p>
+                </a>
+                
+                <a target="_blank" href="../images/tel.jpg">
+                    <img src="../images/tel.jpg">
+                    <p>Telescop</p>
+                </a>
+                
+                
+
+            </div>
+
+
+        </br></br></br>
+        <div id="example1" style="width: 100%; height: 500px;">
+
+        </div>
+
+
+            <a  download href="../resources/informatie.docx">Informați despre satul Brînza
+                <i class="fas fa-file"></i>
+             </a>
+            </br> </br> </br>
+             <a  download href="../resources/cite.pdf">Informație despre liceul satului
+                <i class="fas fa-file"></i>
+             </a>
+
+        </main>
+
+s
+
+    </div>
+       <script>PDFObject.embed("../resources/cite.pdf", "#example1");</script>
+       <script src="../js/main.js"></script>
+       <footer>
+           <div class="contender footer-info">
+               <span>Chetroi Stela</span>
+               <span>2021</span>
+           </div>
+       </footer>
+</body>
+
+</html>
